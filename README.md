@@ -59,7 +59,28 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Vendor Performance**
 - **Sales Trends**
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+These insights empower stakeholders with key business metrics, enabling strategic decision-making. 
+## 📂 Repository Structure
+```
+Fabric_ETL_Gen2/
+│
+├── 0.DataSource/                       # Raw dataset used for the project
+│
+├── 1.BronceLayer/                      # Explains the bronce layer
+│   ├── Flow.md                         # This file shows the processes developed in the Bronce stage
+├── 2.SilverLayer/                      # Explains the silver layer
+│   ├── Flow.md                           # This file shows the processes developed in the Silver stage
+├── 3.GoldLayer/                        # Explains the gold layer
+│   ├── Flow.md                           # This file shows the processes developed in the Gold stage
+├── 4.SemanticModel/                    # Explains the semantic model
+│   ├── DimensionalModel.md               # This file shows the processes involved to create the semantic model
+│
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+```
+---
+
 
 ## 🛡️ License
 
